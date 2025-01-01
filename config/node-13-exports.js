@@ -12,7 +12,6 @@ const subRepositories = [
   'nope',
   'computed-types',
   'typanion',
-  'ajv',
   'typebox',
   'arktype',
   'valibot',

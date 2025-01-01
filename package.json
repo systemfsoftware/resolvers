@@ -1,7 +1,7 @@
 {
-  "name": "@hookform/resolvers",
-  "amdName": "hookformResolvers",
-  "version": "2.9.1",
+  "name": "@systemfsoftware/resolvers",
+  "amdName": "systemfsoftwareResolvers",
+  "version": "2.9.2",
   "description": "React Hook Form validation resolvers: Yup, Joi, Superstruct, Zod, Vest, Class Validator, io-ts, Nope, computed-types, TypeBox, arktype, Typanion, Effect-TS and VineJS",
   "main": "dist/resolvers.js",
   "module": "dist/resolvers.module.js",
@@ -81,12 +81,6 @@
       "import": "./typanion/dist/typanion.mjs",
       "require": "./typanion/dist/typanion.js"
     },
-    "./ajv": {
-      "types": "./ajv/dist/index.d.ts",
-      "umd": "./ajv/dist/ajv.umd.js",
-      "import": "./ajv/dist/ajv.mjs",
-      "require": "./ajv/dist/ajv.js"
-    },
     "./arktype": {
       "types": "./arktype/dist/index.d.ts",
       "umd": "./arktype/dist/arktype.umd.js",
@@ -158,9 +152,6 @@
     "typanion/package.json",
     "typanion/src",
     "typanion/dist",
-    "ajv/package.json",
-    "ajv/src",
-    "ajv/dist",
     "typebox/package.json",
     "typebox/src",
     "typebox/dist",
@@ -203,7 +194,6 @@
     "build:nope": "microbundle --cwd nope --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
     "build:computed-types": "microbundle --cwd computed-types --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
     "build:typanion": "microbundle --cwd typanion --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
-    "build:ajv": "microbundle --cwd ajv --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
     "build:typebox": "microbundle --cwd typebox --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm,@sinclair/typebox/value=value,@sinclair/typebox/compiler=compiler",
     "build:arktype": "microbundle --cwd arktype --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
     "build:valibot": "microbundle --cwd valibot --globals @hookform/resolvers=hookformResolvers,react-hook-form=ReactHookForm",
